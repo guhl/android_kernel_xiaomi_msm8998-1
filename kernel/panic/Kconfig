@@ -1,0 +1,10 @@
+menu "Guhl"
+
+config GUHL_PANIC
+	tristate "Guhls kernel panic"
+	depends on MODULES
+	help
+	  Guhl will cause a kernel panic for you
+
+endmenu
+
